@@ -1,0 +1,17 @@
+package q1;
+
+/**
+ * Cylinder constructor, setter and getter, surface area, volume, 
+ * and toString.
+ *
+ * @author Dominic Cheung, Set C
+ * @version 1.0
+ */
+public class Cylinder {
+    /**
+     * Program that drives.
+     *
+     * @author Dominic Cheung, Set C
+     * @version 1.0
+     */
+}

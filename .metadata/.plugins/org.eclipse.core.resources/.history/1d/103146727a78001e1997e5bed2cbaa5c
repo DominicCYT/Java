@@ -1,0 +1,20 @@
+package ca.bcit.comp1510.lab07;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+import ca.bcit.comp1510.lab06.Mathematics2;
+
+class TestThisTest {
+
+    @Test
+    void testLargestIntIntInt() {
+        assertEquals(0.0003048, Mathematics2.FOOT_TO_KILOMETRE_RATIO, 0.0000001);
+    }
+
+    @Test
+    void testLargestListOfInteger() {
+        fail("Not yet implemented");
+    }
+}

@@ -1,0 +1,10 @@
+comment_stylePreferences=NONE
+comment_text=false
+eclipse.preferences.version=1
+net.sf.eclipsecs.error.color=128,0,0
+net.sf.eclipsecs.error.text.style=NONE
+net.sf.eclipsecs.info.text.style=NONE
+net.sf.eclipsecs.warning.color=128,64,0
+net.sf.eclipsecs.warning.text.style=NONE
+printMargin=true
+spacesForTabs=true

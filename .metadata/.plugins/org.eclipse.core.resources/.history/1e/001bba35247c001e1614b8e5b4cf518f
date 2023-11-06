@@ -1,0 +1,24 @@
+package q2;
+
+/**
+ * Word constructor, setter and getter, and toString.
+ *
+ * @author Dominic Cheung, Set C
+ * @version 1.0
+ */
+public class Word {
+
+    /**
+     * Private instance variable for word.
+     * 
+     * word a String
+     */
+    private String word;
+    
+    /**
+     * Private instance variable for frequency.
+     * 
+     * frequency an int
+     */
+    private double frequency;
+}

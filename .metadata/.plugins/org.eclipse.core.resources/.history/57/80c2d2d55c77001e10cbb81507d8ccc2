@@ -1,0 +1,21 @@
+package ca.bcit.comp1510.lab07;
+
+/**
+ * Program that drives.
+ *
+ * @author Dominic Cheung, Set C
+ * @version 1.0
+ */
+public class DebugStar {
+
+    /**
+     * 
+     * Debug stuff.
+     * @param args unused
+     */
+    public static void main(String[] args) {
+        // TODO Auto-generated method stub
+
+    }
+
+}

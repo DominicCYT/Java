@@ -1,0 +1,24 @@
+/**
+ * 
+ */
+package ca.bcit.comp1510.lab08;
+
+/**
+ * 
+ */
+public class Driver {
+
+    /**
+     * @param args
+     */
+    public static void main(String[] args) {
+        // TODO Auto-generated method stub
+
+    }
+    /**
+     * Program that drives.
+     *
+     * @author Dominic Cheung, Set C
+     * @version 1.0
+     */
+}

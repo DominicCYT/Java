@@ -1,0 +1,49 @@
+package ca.bcit.comp1510.lab08;
+
+import java.util.Random;
+import java.util.Scanner;
+
+/**
+ * It is all fun and games.
+ *
+ * @author Dominic Cheung, Set C
+ * @version 1.0
+ */
+public class Games {
+    
+    /**
+     * Private instance variable for score.
+     * 
+     * score an int
+     */
+    private int score;
+
+    /**
+     * Private instance variable for a scanner.
+     * 
+     * scan a Scanner
+     */
+    private Scanner scan;
+    
+    /**
+     * Private instance variable for a random.
+     * 
+     * rng a Random
+     */
+    private Random rng;
+    
+    /**
+     * constructor for Games.
+     * 
+     * @param i an int
+     * @param s a Scanner
+     * @param r a Random
+     */
+    public Games(int i, Scanner s, Random r) {
+        score = i;
+        scan = s;
+        rng = r;
+        
+    }
+    
+}

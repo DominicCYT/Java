@@ -1,0 +1,20 @@
+package q1;
+
+/**
+ * Cylinder constructor, setter and getter, surface area, volume, 
+ * and toString.
+ *
+ * @author Dominic Cheung, Set C
+ * @version 1.0
+ */
+public class Cylinder {
+    
+    /**
+     * Private instance variable for radius.
+     * 
+     * radius a double
+     */
+    private double radius;
+    
+
+}

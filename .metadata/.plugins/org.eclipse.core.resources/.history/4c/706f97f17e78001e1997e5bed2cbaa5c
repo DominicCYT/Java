@@ -1,0 +1,78 @@
+package ca.bcit.comp1510.lab07;
+
+import static org.junit.jupiter.api.Assertions.*;
+import java.util.List;
+import java.util.ArrayList;
+
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+class TestThisTest {
+
+    private TestThis test;
+
+    /**
+     * Creates a new Mathematics objects before each test is executed.
+     * 
+     * @throws Exception if a Mathematics object cannot be created.
+     */
+    @BeforeEach
+    public void setUp() throws Exception {
+        test = new TestThis();
+    }
+
+    /**
+     * Test method for the value of ONE_FOOT_TO_KILOMETER_RATIO.
+     *         // check for all orders in a b c, b,c,a etc
+        // parameterized test?
+     */
+    @Test
+    void testLargestFirst() {
+        int biggest = test.largest(7,8,9);
+        assertEquals(9,biggest);
+    }
+    @Test
+    void testLargestSecond() {
+        int biggest = test.largest(7, 9, 8);
+        assertEquals(9, biggest);
+    }
+    @Test
+    void testLargestThird() {
+        int biggest = test.largest(9, 7, 8);
+        assertEquals(9, biggest);
+    }
+    
+    @Test
+    void testLargestNegative() {
+        int biggest = test.largest(-9, -7, -8);
+        assertEquals(-7, biggest);
+    }
+    
+    @Test
+    void testLargestZero() {
+        int biggest = test.largest(-9, -7, 0);
+        assertEquals(0, biggest);
+    }
+
+    @Test
+    void testLargestListOneValue() {
+        ArrayList<Integer> list = new ArrayList<Integer>();
+        list.add(10);     
+    }
+    
+    @Test
+    void testLargestListThreeValues() {
+        ArrayList<Integer> list = new ArrayList<Integer>();
+        list.add(10);
+        list.add(9);
+        list.add(8);
+    }
+    
+    @Test
+    void testLargestListThreeValuesOutOfOrder() {
+        ArrayList<Integer> list = new ArrayList<Integer>();
+        list.add(9);
+        list.add(10);
+        list.add(8);
+    }
+}

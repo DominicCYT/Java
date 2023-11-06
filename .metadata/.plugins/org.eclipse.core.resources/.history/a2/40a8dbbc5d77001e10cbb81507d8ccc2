@@ -1,0 +1,82 @@
+package ca.bcit.comp1510.lab07;
+
+/**
+ * Program that drives.
+ *
+ * @author Dominic Cheung, Set C
+ * @version 1.0
+ */
+public class DebugStar {
+
+    /**
+     * 
+     * Debug stuff.
+     * 
+     * @param args unused
+     */
+    public static void main(String[] args) {
+        run("+", 6, 7);
+        run("-", 6, 7);
+        run(6);
+    }
+
+    private static Operation getOperation(final String key) {
+        final Operation operation;
+        if (key.equals("+")) {
+            operation = new Add();
+        } else {
+            operation = new Subtract();
+        }
+        return (operation);
+    }
+
+    private static void run(final String key, final int a, final int b) {
+        final Operation operation;
+        final int result;
+        operation = getOperation(key);
+        result = operation.perform(a, b);
+        System.out.println("result = " + result);
+    }
+
+    private static void run(final int n) {
+        final Factorial factorial;
+        final int result;
+        factorial = new Factorial();
+        result = factorial.perform(n);
+        System.out.println("result = " + result);
+    }
+
+}
+
+    public static void main(String[] args) {
+        run("+", 6, 7);
+        run("-", 6, 7);
+        run(6);
+    }
+
+    private static Operation getOperation(final String key) {
+        final Operation operation;
+        if (key.equals("+")) {
+            operation = new Add();
+        } else {
+            operation = new Subtract();
+        }
+        return (operation);
+    }
+
+    private static void run(final String key, final int a, final int b) {
+        final Operation operation;
+        final int result;
+        operation = getOperation(key);
+        result = operation.perform(a, b);
+        System.out.println("result = " + result);
+    }
+
+    private static void run(final int n) {
+        final Factorial factorial;
+        final int result;
+        factorial = new Factorial();
+        result = factorial.perform(n);
+        System.out.println("result = " + result);
+    }
+}

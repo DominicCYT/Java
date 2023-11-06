@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.junit.wizards.NewTestCaseCreationWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.jdt.ui.java"/>
+			<item value="org.eclipse.jdt.ui.java/org.eclipse.jdt.junit"/>
+		</list>
+	</section>
+	<section name="ImportExportAction">
+		<item key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID" value="org.eclipse.ui.wizards.export.ZipFile"/>
+		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.ui.wizards.import.FileSystem"/>
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+			<item value="org.eclipse.jdt.ui.Java"/>
+		</list>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+	</section>
+	<section name="ZipFileExportWizard">
+		<item key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="true"/>
+		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="true"/>
+		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="C:\Users\Dom\OneDrive\Documents\BCIT\Term 1\COMP 1510 Programming Methods\Labs\Comp1510Lab07CheungD.zip"/>
+			<item value="C:\Users\Dom\OneDrive\Documents\BCIT\Term 1\COMP 1510 Programming Methods\Labs\Comp1510Lab06CheungD.zip"/>
+			<item value="C:\Users\Dom\OneDrive\Documents\BCIT\Term 1\COMP 1510 Programming Methods\Labs\Comp1510Lab05CheungD.zip"/>
+			<item value="C:\Users\Dom\OneDrive\Documents\BCIT\Term 1\COMP 1510 Programming Methods\Labs\Comp1510Lab04CheungD.zip"/>
+			<item value="C:\Users\Dom\OneDrive\Documents\BCIT\Term 1\COMP 1510 Programming Methods\Labs\Comp1510Lab03CheungD.zip"/>
+			<item value="C:\Users\Dom\OneDrive\Documents\BCIT\Term 1\COMP 1510 Programming Methods\Labs\Comp1510Lab02CheungD.zip"/>
+			<item value="C:\Users\Dom\Documents\Docs\BCIT\Term 1\COMP 1510 Programming Methods\Labs\Comp1510Lab01CheungD.zip"/>
+		</list>
+	</section>
+	<section name="ZipFileImportWizard">
+		<item key="WizardZipFileResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID" value="false"/>
+		<list key="WizardZipFileResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="C:\Users\Dom\OneDrive\Documents\BCIT\Term 1\COMP 1510 Programming Methods\Assignments\Comp1510-assign-1-template.zip"/>
+		</list>
+	</section>
+	<section name="FileSystemImportWizard">
+		<item key="WizardFileSystemResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID" value="false"/>
+		<item key="WizardFileSystemResourceImportPage1.STORE_CREATE_CONTAINER_STRUCTURE_ID" value="false"/>
+		<list key="WizardFileSystemResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="C:\Users\Dom\OneDrive\Documents\BCIT\Term 1\COMP 1510 Programming Methods\Assignments\Comp1510-assign-1-template\Comp1510-assign-1-template"/>
+		</list>
+	</section>
+</section>

@@ -1,0 +1,18 @@
+package ca.bcit.comp1510.lab08;
+
+/**
+ * It is all fun and games.
+ *
+ * @author Dominic Cheung, Set C
+ * @version 1.0
+ */
+public class Games {
+    
+    /**
+     * Private instance variable for score.
+     * 
+     * score an int
+     */
+    private int score;
+
+}
