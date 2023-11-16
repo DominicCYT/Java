@@ -24,7 +24,7 @@ public class Cat {
      * @param age an int
      */
     public Cat(String name, int age) {
-        if (name.isEmpty()) {
+        if (name.isEmpty() || name.isBlank() || name.equals(null)) {
             this.name = "Cleo";
         } else {
             this.name = name;

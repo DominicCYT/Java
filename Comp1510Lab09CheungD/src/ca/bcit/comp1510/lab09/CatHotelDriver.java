@@ -22,17 +22,17 @@ public class CatHotelDriver {
         Random rng = new Random();
 
         // get random number of cat guests
-        final int upper = 20;
+        final int upper = 10;
         int nGuests = rng.nextInt(upper);
         
         
         for (int i = 0; i < nGuests; i++) {
             
             // new name for each cat object created
-            String name = "Chocolate" + (i + 1);
+            String name = "Chocolate";
             
             // get random age
-            final int upperAge = 10;
+            final int upperAge = 20;
             int age = rng.nextInt(upperAge);
             
             Cat cat = new Cat(name, age);
@@ -49,7 +49,7 @@ public class CatHotelDriver {
         int removed = catHotel.removeOldGuests(tooOld);
         System.out.println("\nCats older than 7 removed: " + removed);
         
-        System.out.println("New guest count: " + catHotel.guestCount() + "\n" 
+        System.out.println("\nNew guest count: " + catHotel.guestCount() + "\n" 
             + "List after removal:");
         catHotel.printGuestList();
         
