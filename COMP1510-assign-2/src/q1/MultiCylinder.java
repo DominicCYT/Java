@@ -5,7 +5,7 @@ package q1;
  * printing their radius and height before and after modification, and prints 
  * the final volume and surface area of each cylinder.</p>
  *
- * @author Dominic Cheung
+ * @author Dominic Cheung, Set C
  * @version 1.0
  */
 public class MultiCylinder {
@@ -15,24 +15,40 @@ public class MultiCylinder {
      * @param args command line arguments unused.
      */
     public static void main(String[] args) {
-
-        Cylinder cylinderA = new Cylinder(1, 2);
-        Cylinder cylinderB = new Cylinder(2, 1);
         
-        //print before modification radius and height
+        // setting variables for the two cylinders A and B
+        
+        final int radiusA = 3;
+        final int heightA = 4;
+
+        final int radiusB = 4;
+        final int heightB = 6;
+        
+        Cylinder cylinderA = new Cylinder(radiusA, heightA);
+        Cylinder cylinderB = new Cylinder(radiusB, heightB);
+        
+        // print before modification radius and height
         System.out.println("Cylinder A before modification:\n" 
                 + cylinderA.toString());
         System.out.println("Cylinder B before modification:\n" 
                 + cylinderB.toString());
 
-        //use setters to change the cylinders
-        cylinderA.setRadius(2);
-        cylinderA.setHeight(1);
         
-        cylinderB.setRadius(1);
-        cylinderB.setHeight(2);
+        // set modified radius and height for A and B
+        final int radiusA2 = 4;
+        final int heightA2 = 5;
         
-        //print final outputs
+        final int radiusB2 = 3;
+        final int heightB2 = 3;
+        
+        // use setters to change the cylinders
+        cylinderA.setRadius(radiusA2);
+        cylinderA.setHeight(heightA2);
+        
+        cylinderB.setRadius(radiusB2);
+        cylinderB.setHeight(heightB2);
+        
+        // print final outputs
         System.out.println("Cylinder A after modification:\n" 
                 + cylinderA.toString()
                 + "\nSurface Area: " + cylinderA.surfaceArea()

@@ -1,6 +1,6 @@
 [Dominic Cheung], [A01365286], [C], [Nov 15, 2023]
 
-This assignment is [enter percent]% complete.
+This assignment is [100]% complete.
 
 
 ------------------------
@@ -8,22 +8,23 @@ Question one (MultiCylinder) status:
 
 [complete]
 
+
 ------------------------
 Question two (WordCounter) status:
 
-[complete or not complete]
-[explanation if not complete, what is working/not working]
+[complete]
+
 
 ------------------------
 Question three (Primes) status:
 
-[complete or not complete]
-[explanation if not complete, what is working/not working]
+[complete]
+
 
 ------------------------
 Question four (Exponential) status:
 
-[complete or not complete]
-[explanation if not complete, what is working/not working]
+[complete]
+
 
 ------------------------

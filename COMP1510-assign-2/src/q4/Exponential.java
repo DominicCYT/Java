@@ -1,23 +1,57 @@
 package q4;
 
 /**
- * <p>This is where you put your description about what this class does. You
- * don't have to write an essay but you should describe exactly what it does.
- * Describing it will help you to understand the programming problem better.</p>
+ * <p> A main method that evaluates and prints a table of 21
+exponentials for x = -10.0 to 10.0 with one value per row, showing x 
+and e^x. It does not use any standard Math library methods nor custom
+methods, only the formula provided.</p>
  *
- * @author Your Name goes here
+ * @author Dominic Cheung, Set C
  * @version 1.0
  */
 public class Exponential {
+    
+   
+    static double exp(double x) {
+        
+        // use doubles to enable promotions of int in calculations
+        double currentTerm = 1;
+        double nextTerm;
+        double sum = 1;
+        
+        /* since this is an infinite series, should technically 
+         * use Integer.MAX_VALUE for largest possible int.
+         * However there are no difference in results 
+         * after k <= 57. So for performance reasons will use limit of 57. */
+        
+        final int performanceLimit = 57;
+        
+        for (int k = 0; k <= performanceLimit; k++) {
+            nextTerm = currentTerm * (x / (k + 1));
+            sum = sum + nextTerm;
+            currentTerm = nextTerm;
+        }
+        return sum;
+    }
         
     /**
-     * Describe what the main method does here.
+     * Calls exp to print the requested results.
      * 
-     * @param args command line arguments
+     * @param args command line arguments unused
      */
     public static void main(String[] args) {
-        //replace next line with your code:
-        System.out.println("Question four was called and ran sucessfully.");
+        // table header
+        System.out.println("x" + "\t" + "e^x");
+        System.out.println();
+        // given lower and upper bounds
+        final int lower = -10;
+        final int upper = 10;
+        
+        // print results of x and e^x per line
+        for (int x = lower; x <= upper; x++) {
+            System.out.println(x + "\t" + exp(x)); 
+        }
+        
     }
 }
 

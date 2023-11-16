@@ -19,12 +19,12 @@ public class Cylinder {
     /**
      * Private instance variable for height.
      * 
-     * radius a double
+     * height a double
      */
     private double height;
     
     /**
-     * constructor for Cylinder.
+     * constructor for Cylinder. Takes r for radius and h for height
      * 
      * @param r a double
      * @param h a double
@@ -69,7 +69,7 @@ public class Cylinder {
     
     /**
      * Gives the surface area of a cylinder.
-     * @return sarea as a double.
+     * @return sarea a double.
      */
     public double surfaceArea() {
         double sarea = 2 * Math.PI * radius * (radius + height);
@@ -78,7 +78,7 @@ public class Cylinder {
     
     /**
      * Gives the volume of a cylinder.
-     * @return volume as a double.
+     * @return volume a double.
      */
     public double volume() {
         double volume = Math.PI * Math.pow(radius, 2) * height;
