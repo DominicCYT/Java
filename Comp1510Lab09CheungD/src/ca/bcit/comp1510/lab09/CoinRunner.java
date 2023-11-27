@@ -39,7 +39,7 @@ public class CoinRunner {
             }
         }
 
-        System.out.println("The longest run of heads is: " + longest);
+        System.out.println("The longest run of heads is " + longest);
     }
 }
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="NewWizardAction">
-		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.junit.wizards.NewTestCaseCreationWizard"/>
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
 			<item value="org.eclipse.jdt.ui.java"/>
 			<item value="org.eclipse.jdt.ui.java/org.eclipse.jdt.junit"/>
@@ -22,6 +22,8 @@
 		<item key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="true"/>
 		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="true"/>
 		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="C:\Users\Dom\OneDrive\Documents\BCIT\Term 1\COMP 1510 Programming Methods\Labs\Comp1510Lab10CheungD.zip"/>
+			<item value="C:\Users\Dom\OneDrive\Documents\BCIT\Term 1\COMP 1510 Programming Methods\Labs\Comp1510Lab09CheungD.zip"/>
 			<item value="C:\Users\Dom\OneDrive\Documents\BCIT\Term 1\COMP 1510 Programming Methods\Labs\Comp1510Lab08CheungD.zip"/>
 			<item value="C:\Users\Dom\OneDrive\Documents\BCIT\Term 1\COMP 1510 Programming Methods\Labs\Comp1510Lab07CheungD.zip"/>
 			<item value="C:\Users\Dom\OneDrive\Documents\BCIT\Term 1\COMP 1510 Programming Methods\Labs\Comp1510Lab06CheungD.zip"/>
